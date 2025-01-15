@@ -1,0 +1,15 @@
+### Deposit Money
+POST http://localhost:8080/api/bank/deposit?amount=100.0
+Content-Type: application/json
+
+### Withdraw Money
+POST http://localhost:8080/api/bank/withdraw?amount=100.0
+Content-Type: application/json
+
+### Get Account Balance
+GET http://localhost:8080/api/bank/balance
+Content-Type: application/json
+
+### Get Transactions
+GET http://localhost:8080/api/bank/transactions
+Content-Type: application/json
