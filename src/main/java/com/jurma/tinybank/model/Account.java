@@ -1,4 +1,8 @@
 package com.jurma.tinybank.model;
 
-public class Account {
+import lombok.Data;
+
+@Data
+public class Account  {
+    private double balance = 0.0;
 }

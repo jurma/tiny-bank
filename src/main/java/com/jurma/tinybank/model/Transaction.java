@@ -1,4 +1,4 @@
 package com.jurma.tinybank.model;
 
-public class Transaction {
+public record Transaction(TransactionType type, double amount) {
 }

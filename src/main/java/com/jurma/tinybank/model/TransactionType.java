@@ -1,5 +1,5 @@
-package com.jurma.tinybank.repository;
+package com.jurma.tinybank.model;
 
 public enum TransactionType {
-    DEPOSIT,WITHDRAW
+    DEPOSIT, WITHDRAW
 }
