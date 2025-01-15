@@ -12,6 +12,7 @@ Tiny-bank is a simple Spring Boot project that simulates a basic banking system 
 - Thread safety implemented in the very basic way
 - No error handling and mapping implemented
 - The data model and architecture are designed in such a way as to enable easy future transition to a relational database.
+- No extended data on account and transactions eg. client name, update date, etc. Implemented necessary data to comply the requirements only.  
 - No tests are implemented 
 
 ## Prerequisites
